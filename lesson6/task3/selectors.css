@@ -1,19 +1,24 @@
+* {
+  box-sizing: border-box;
+}
+
 img[alt="Pollution"] {
   border: 5px dashed red;
 }
 
-img[src $= ".jpg"]{
-    margin-left: 50px;
+img[src$=".jpg"] {
+  margin-left: 50px;
 }
 
-li[data-description ~= "even"]{
-    background-color: grey;
+li[data-description~="even"] {
+  background-color: grey;
 }
 
-a[href ^= "https://"]{
-    color: green;
+a[href ^= "https://"]
+{
+  color: green;
 }
 
-span[lang |="en"]{
-    font-size: 28px;
+span[lang|="en"] {
+  font-size: 28px;
 }
