@@ -35,8 +35,8 @@
 .ear {
   background-color: brown;
   height: 60px;
-  width: 40px;
-  position: relative;
+  width: 41px;
+  position: absolute;
 }
 
 .eye {
@@ -65,5 +65,5 @@
 .ear_right{
     float: right;
     top: -60px;
-    left: 40px;
+    left: 200px;
 }
