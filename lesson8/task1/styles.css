@@ -1,0 +1,20 @@
+body{
+    background-color: antiquewhite;
+}
+
+.rectangle{
+    height: 128px;
+    width: 512px;
+    padding: 16px;
+    margin: 16px;
+    border: 8px solid black;
+}
+.rectangle1{
+    box-sizing: content-box;
+    background-color: aquamarine;
+}
+
+.rectangle2{
+    box-sizing: border-box;
+    background-color: azure;
+}
