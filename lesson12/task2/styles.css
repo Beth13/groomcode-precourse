@@ -7,7 +7,6 @@ html {
 }
 
 h1 {
-  width: 50%;
   font-size: 74px;
   white-space: nowrap;
   overflow: hidden;
@@ -15,7 +14,8 @@ h1 {
 }
 
 header {
-    text-align: center;
+  margin-left: 25%;
+  width: 50%;
 }
 
 div {
