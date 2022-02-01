@@ -3,7 +3,7 @@
 }
 
 html {
-  font-family: Verdana;
+  font-family: Verdana, sans-serif;
 }
 
 h1 {
@@ -15,6 +15,7 @@ h1 {
 
 header {
   margin-left: 25%;
+  margin-right: 25%;
   width: 50%;
   display: flex;
   justify-content: center;
