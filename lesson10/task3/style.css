@@ -60,7 +60,7 @@
   display: flex;
   justify-content: center;
   /* flex-direction: column; */
-  /* margin: 16px; */
+  margin: 16px;
 }
 
 .news_item{
