@@ -1,8 +1,9 @@
-html {
-  font-size: 18px;
+*{
+    box-sizing: border-box;
 }
 
-.properties-list {
+html {
+  font-size: 18px;
 }
 
 .properties-list__item {
