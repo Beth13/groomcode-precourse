@@ -14,9 +14,9 @@
   font-family: monospace;
   font-size: 16px;
   text-transform: uppercase;
-  animation: blinking;
+  /* animation: blinking;
   animation-duration: 2s;
-  animation-iteration-count: infinite;
+  animation-iteration-count: infinite; */
 }
 
 .rect {
