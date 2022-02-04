@@ -34,7 +34,7 @@ input {
 }
 
 .form-label {
-  padding-bottom: 4px;
+  margin-bottom: 4px;
 }
 
 .submit-button {
@@ -45,7 +45,6 @@ input {
   color: white;
   border-radius: 4px;
   width: 100%;
-  border: none;
 }
 
 input:invalid {
