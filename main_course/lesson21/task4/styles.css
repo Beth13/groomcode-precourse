@@ -1,0 +1,101 @@
+* {
+  box-sizing: border-box;
+}
+
+html {
+  font-size: 16px;
+  height: 100%;
+  color: #555;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+body {
+  display: flex;
+  min-height: 100%;
+  flex-direction: column;
+  flex: 1 1 auto;
+}
+
+/* ---------------HEADER---------------- */
+
+.header {
+  display: inline-block;
+  color: #fff;
+  margin: 0;
+  width: 100vw;
+  background-image: linear-gradient(60deg, red, orange);
+}
+
+h1 {
+  text-align: center;
+}
+
+/* ------------------MAIN------------------- */
+
+.main {
+  display: flex;
+  flex: 1 1 auto;
+}
+
+.navigation,
+.section,
+.news {
+  padding: 0.5em;
+}
+
+.navigation {
+  width: 20%;
+}
+
+.section {
+  width: 60%;
+}
+
+.news {
+  width: 20%;
+}
+
+.units-list {
+  line-height: 1.75em;
+}
+
+.css-units {
+  color: #8b0000;
+  background-color: #e5e5e5;
+  font-size: 1.125em;
+  font-weight: 700;
+}
+
+.section__header {
+  font-size: 5vw;
+  text-align: center;
+}
+
+.nav-list{
+    padding: 0;
+    list-style-type: none;
+}
+
+.nav-list-item{
+    background-color: #808080;
+    color: white;
+    height: 2em;
+    margin-bottom: 0.5em;
+}
+
+.nav-list-link{
+    color: white;
+    text-decoration: none;
+    display: block;
+    padding: 0 0.5em;
+    overflow: hidden;
+    white-space: nowrap;
+    text-overflow: ellipsis;
+}
+/* -------------------FOOTER---------------------- */
+
+.footer {
+  text-align: center;
+  background-color: #e5e5e5;
+  padding: 0.5em;
+}
