@@ -111,7 +111,7 @@ h1 {
 .section,
 .news {
   /* display: flex; */
-  flex: -1;
+  /* flex: -1; */
   padding: 0.5em;
 }
 
@@ -145,14 +145,6 @@ h1 {
 @media screen and (min-width: 1200px) {
   .main-full-content {
     display: flex;
-  }
-
-  .section {
-    width: 60%;
-  }
-
-  .navigation {
-    width: 20%;
   }
 
   .news {
