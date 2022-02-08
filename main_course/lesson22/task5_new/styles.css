@@ -36,10 +36,6 @@ h1 {
   flex-direction: column;
   flex: 1 1 auto;
 }
-/* 
-    .main-content {
-      display: block;
-    } */
 
 .navigation {
   /* background-color: bisque; */
@@ -49,7 +45,7 @@ h1 {
 .section {
   /* background-color: aqua; */
   width: 100%;
-  /* font-size: 1.25em; */
+  font-size: 1.25em;
   /* display: flex;
     flex-direction: column; */
 }
@@ -77,9 +73,9 @@ h1 {
   text-align: center;
 }
 
-/* picture {
+picture {
   display: flex;
-} */
+}
 
 img {
   max-width: 100%;
@@ -115,7 +111,7 @@ img {
 .section,
 .news {
   /* display: flex; */
-  float: 1;
+  flex: -1;
   padding: 0.5em;
 }
 
@@ -130,40 +126,35 @@ img {
 @media screen and (min-width: 600px) {
   .main-content {
     display: flex;
-  }
-
-  .content {
-    display: flex;
     flex: 2;
   }
+
+  /* .content {
+    display: flex;
+    flex: 2;
+  } */
   .navigation {
     width: 20%;
   }
 
-  /* .section {
+  .section {
     width: 80%;
-  } */
+  }
 }
 
 @media screen and (min-width: 1200px) {
-  /* .main-content {
-      display: flex;
-      flex-direction: row;
-      flex: 1 1 auto;
-    } */
-/* 
-  .main-content {
-    width: 80%;;
-  } */
-
   .main-full-content {
     display: flex;
   }
 
-  .section{
-      width: 60%;
+  .section {
+    width: 60%;
   }
-  
+
+  .navigation {
+    width: 20%;
+  }
+
   .news {
     width: 20%;
   }
